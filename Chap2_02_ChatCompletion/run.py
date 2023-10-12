@@ -3,7 +3,6 @@ from dotenv import load_dotenv
 load_dotenv()
 import os
 import openai
-openai.api_key = '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'
 
 # For GPT 3.5 Turbo, the endpoint is ChatCompletion
 response = openai.ChatCompletion.create(
