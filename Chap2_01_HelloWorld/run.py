@@ -11,7 +11,7 @@ response = openai.ChatCompletion.create(
   model="gpt-3.5-turbo",
   messages=[
       {"role": "user", 
-       "content": "Hello World!"},
+       "content": "Hello World!"}
     ],
 temperature=0.7,
 max_tokens=3,
